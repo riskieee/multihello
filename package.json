@@ -1,0 +1,50 @@
+{
+	"name": "sayhallo",
+	"version": "1.0.0",
+	"description": "100 languages to say hallo",
+	"main": "sayHello.js",
+	"scripts": {
+		"start": "node examples.js",
+		"lint": "eslint .",
+		"lint-fix": "eslint --fix .",
+		"test": "jest --watchAll",
+		"test:coveralls": "jest --coverage && coveralls < coverage/lcov.info"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/riskieee/sayhallo.git"
+	},
+	"keywords": [
+		"hallo",
+		"json",
+		"100",
+		"languages",
+		"translate"
+	],
+	"author": "riskieee",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/riskieee/sayhallo/issues"
+	},
+	"homepage": "https://github.com/riskieee/sayhallo#readme",
+	"dependencies": {
+		"coveralls": "^3.1.1",
+		"eslint": "^7.30.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-config-standard": "^16.0.3",
+		"eslint-plugin-import": "^2.23.4",
+		"eslint-plugin-jest": "^24.3.6",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^5.1.0",
+		"eslint-plugin-standard": "^5.0.0",
+		"jest": "^27.0.6",
+		"prettier": "^2.3.2"
+	},
+	"eslintConfig": {
+		"extends": "eslint:recommended",
+		"rules": {
+			"eqeqeq": "off",
+			"allowIndentationTabs": true
+		}
+	}
+}
