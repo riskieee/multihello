@@ -1,10 +1,10 @@
 {
-	"name": "sayhallo",
-	"version": "1.0.0",
-	"description": "100 languages to say hallo",
-	"main": "sayHello.js",
+	"name": "sayhello",
+	"version": "1.0.1",
+	"description": "use initially 100 languages to say hello",
+	"main": ". index.js",
 	"scripts": {
-		"start": "node examples.js",
+		"demo": "node examples.js",
 		"lint": "eslint .",
 		"lint-fix": "eslint --fix .",
 		"test": "jest --watchAll",
@@ -12,21 +12,20 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/riskieee/sayhallo.git"
+		"url": "git+https://github.com/riskieee/sayhello.git"
 	},
 	"keywords": [
-		"hallo",
+		"hello",
 		"json",
-		"100",
 		"languages",
 		"translate"
 	],
 	"author": "riskieee",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/riskieee/sayhallo/issues"
+		"url": "https://github.com/riskieee/sayhello/issues"
 	},
-	"homepage": "https://github.com/riskieee/sayhallo#readme",
+	"homepage": "https://github.com/riskieee/sayhello#readme",
 	"dependencies": {
 		"coveralls": "^3.1.1",
 		"eslint": "^7.30.0",
