@@ -1,36 +1,32 @@
 /* eslint-disable no-undef */
-const sayHello = require('../sayHello')
+const sayhello = require('../index')
 
-describe('sayHello library test', () => {
-	it('sayHello is called without options and returns random string from hellos array', () => {
-		const hellosJson = require('../hellos.json')
-		const hellos = []
-		for (const [key, value] of Object.entries(hellosJson)) {
-			hellos.push(`${value} (${key})`)
-		}
+describe('sayhello library test', () => {
+	it('sayhello is called without options and returns random string from hellos array', () => {
 		//test
-		const testresult = sayHello()
+		const hellos = require('../hellos.json')
+		const testresult = sayhello()
 		//expect random as part of hellos array
 		expect(hellos).toContain(testresult)
 	})
 
-	it('sayHello is called with number (0) option and returns the specific string "Hello (English)"', () => {
+	it('sayhello is called with number (0) option and returns the specific string "Hello (English)"', () => {
 		//test
-		const testresult = sayHello(0)
+		const testresult = sayhello(0)
 		//expect
 		expect(testresult).toEqual('Hello (English)')
 	})
 
-	it('sayHello is called with search string "Ger" returns the specific string "Hallo (German)"', () => {
+	it('sayhello is called with search string "Ger" returns the specific string "Hallo (German)"', () => {
 		//test
-		const testresult = sayHello('Ger')
+		const testresult = sayhello('Ger')
 		//expect
 		expect(testresult).toEqual('Hallo (German)')
 	})
 
-	it('sayHello is called with search string "NotIncluded" returns error as it is not included the specific string "Sorry, no match :("', () => {
+	it('sayhello is called with search string "NotIncluded" returns error as it is not included the specific string "Sorry, no match :("', () => {
 		//test
-		const testresult = sayHello('NotIncluded')
+		const testresult = sayhello('NotIncluded')
 		//expect
 		expect(testresult).toEqual('Sorry, no match :(')
 	})
