@@ -2,7 +2,7 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/riskieee/sayhello/badge.svg?branch=main)](https://coveralls.io/github/riskieee/sayhello?branch=main)
 
-An npm library to return a greeting as a string like ` Moni (Chewa)` from initially 100 languages.
+An npm library to return a greeting as a string like `Moni (Chewa)` from initially 100 languages.
 
 ## Why?
 
