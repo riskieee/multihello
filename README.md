@@ -1,7 +1,6 @@
 # multihello 👋
 
-[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/) [![Coverage Status](https://coveralls.io/repos/github/riskieee/multihello/badge.svg?branch=main)](https://coveralls.io/github/riskieee/multihello?branch=main) [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/riskieee/multihello/blob/main/LICENSE) [![GitHub Release](https://img.shields.io/github/release/riskieee/multihello.svg?style=flat)]() [![Travis CI](https://travis-ci.org/riskieee/multihello.svg?branch=master)](https://travis-ci.org/riskieee/multihello)
-[![Travis CI w/ Logo](https://img.shields.io/travis/riskieee/multihello/master.svg?logo=travis)](https://travis-ci.org/riskieee/multihello)
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/) [![Coverage Status](https://coveralls.io/repos/github/riskieee/multihello/badge.svg?branch=main)](https://coveralls.io/github/riskieee/multihello?branch=main) [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/riskieee/multihello/blob/main/LICENSE) [![Build Status ](https://travis-ci.com/riskieee/multihello.svg?branch=main)](https://travis-ci.com/riskieee/multihello)
 
 An npm library to return a greeting as a string like `Moni (Chewa)` from initially 100 languages.
 
