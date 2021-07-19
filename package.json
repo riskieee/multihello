@@ -1,5 +1,5 @@
 {
-	"name": "sayhello",
+	"name": "multihello",
 	"version": "1.0.2",
 	"description": "use initially 100 languages to say hello",
 	"main": ". index.js",
@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/riskieee/sayhello.git"
+		"url": "git+https://github.com/riskieee/multihello.git"
 	},
 	"keywords": [
 		"hello",
@@ -23,9 +23,9 @@
 	"author": "riskieee",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/riskieee/sayhello/issues"
+		"url": "https://github.com/riskieee/multihello/issues"
 	},
-	"homepage": "https://github.com/riskieee/sayhello#readme",
+	"homepage": "https://github.com/riskieee/multihello#readme",
 	"dependencies": {
 		"coveralls": "^3.1.1",
 		"eslint": "^7.30.0",

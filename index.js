@@ -1,6 +1,6 @@
 const hellos = require('./hellos.json')
 
-function sayhello(select = 'random') {
+function multihello(select = 'random') {
 	// check for array index number
 	if (hellos[select]) return hellos[select]
 	// find language by (part)keyword
@@ -14,4 +14,4 @@ function sayhello(select = 'random') {
 	return hellos[Math.floor(Math.random() * hellos.length)]
 }
 
-module.exports = sayhello
+module.exports = multihello

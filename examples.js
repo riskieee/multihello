@@ -1,23 +1,23 @@
-const sayhello = require('./index.js')
+const multihello = require('./index.js')
 
 console.log('-----------------------------------------------')
-console.log('sayhello() examples and options')
+console.log('multihello() examples and options')
 console.log('-----------------------------------------------')
 
 // output > random
-console.log('sayhello() => random => ', sayhello())
+console.log('multihello() => random => ', multihello())
 
 // output > 'Namaste (Hindi)'
-console.log('sayhello(3) => by number => ', sayhello(3))
+console.log('multihello(3) => by number => ', multihello(3))
 
 // output > 'Deu boro dis dium (Kokani)'
-console.log("sayhello('Kok') => search 'Kok' => ", sayhello('Kok'))
+console.log("multihello('Kok') => search 'Kok' => ", multihello('Kok'))
 
 // output > random by emptystring
-console.log("sayhello('') => search '' => ", sayhello(''))
+console.log("multihello('') => search '' => ", multihello(''))
 
 // error output > 'Sorry, no match :('
 console.log(
-	"sayhello('errortest') => search 'errortest' => ",
-	sayhello('errortest')
+	"multihello('errortest') => search 'errortest' => ",
+	multihello('errortest')
 )
