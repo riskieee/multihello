@@ -1,6 +1,6 @@
 {
 	"name": "sayhello",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "use initially 100 languages to say hello",
 	"main": ". index.js",
 	"scripts": {
