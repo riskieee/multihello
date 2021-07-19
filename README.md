@@ -1,6 +1,7 @@
 # sayhello 👋
 
-[![Coverage Status](https://coveralls.io/repos/github/riskieee/sayhello/badge.svg?branch=main)](https://coveralls.io/github/riskieee/sayhello?branch=main)
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/) [![Coverage Status](https://coveralls.io/repos/github/riskieee/sayhello/badge.svg?branch=main)](https://coveralls.io/github/riskieee/sayhello?branch=main) [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/riskieee/sayhello/blob/main/LICENSE) [![GitHub Release](https://img.shields.io/github/release/riskieee/sayhello.svg?style=flat)]() [![Travis CI](https://travis-ci.org/riskieee/sayhello.svg?branch=master)](https://travis-ci.org/riskieee/sayhello)
+[![Travis CI w/ Logo](https://img.shields.io/travis/riskieee/sayhello/master.svg?logo=travis)](https://travis-ci.org/riskieee/sayhello)
 
 An npm library to return a greeting as a string like `Moni (Chewa)` from initially 100 languages.
 
@@ -68,7 +69,7 @@ console.log(sayhello('dish'))
 
 # Contributing
 
-Get involved! There are more than 100 languages so would be nice you add some Hello’s :)
+Get involved! There are more than 100 languages so would be nice you add some Hello’s in hellos.json and helloskeys.json :)
 
 # MIT LICENSE
 
