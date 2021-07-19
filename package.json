@@ -42,8 +42,7 @@
 	"eslintConfig": {
 		"extends": "eslint:recommended",
 		"rules": {
-			"eqeqeq": "off",
-			"allowIndentationTabs": true
+			"eqeqeq": "off"
 		}
 	}
 }
